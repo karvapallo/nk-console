@@ -1,0 +1,14 @@
+{
+  "name": "nk-console",
+  "version": "1.0.0",
+  "description": "Simple console wrapper that enables log file output in addition to traditional console.log messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aapo Kuuselo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fs-extra": "^0.30.0"
+  }
+}
