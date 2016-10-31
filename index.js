@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs-extra');
-const debug = !process.debugPort;
+const debug = process.debugPort;
 const logFilePath = './log.txt';
 const EOL = require('os').EOL;
 const util = require('util');
