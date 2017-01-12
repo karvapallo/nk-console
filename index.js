@@ -2,7 +2,7 @@
 
 const fs = require('fs-extra');
 const debug = process.debugPort;
-const logFilePath = './log.txt';
+const logFilePath = __dirname + '/../../../../node-log.txt';
 const EOL = require('os').EOL;
 const util = require('util');
 
